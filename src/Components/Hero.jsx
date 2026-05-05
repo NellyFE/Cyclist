@@ -61,7 +61,7 @@ export const Hero = () => {
         className="absolute animate-float top-[50%] -left-[3%]"
     />
     
-    {/* Left floating icon (rider arriving indicator) - bottom center of left phone */}
+    {/* Left floating icon - bottom center of left phone */}
     <img 
         src="images/left-floatingicon.svg"
         alt="" 
