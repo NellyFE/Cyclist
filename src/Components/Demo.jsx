@@ -10,45 +10,48 @@ export const Demo = () => {
         </div>
 
         {/* holding container */}
-         <div className="flex justify-between gap-8 w-[1323px] h-[530px] top-[360px] px-6 gap-24px">
+         <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6 w-full max-w-7xl mx-auto px-4">
 
-            {/* first card */}
-        <div className="bg-[#F5F5F5] flex flex-col w-1/3 pt-6 px-6 rounded-t-2xl h-fit gap-24" >
-            <div className="flex flex-col gap-4 ">
-                <h3 className="font-medium text-2xl leading-[20px]">Top Up Your Wallet</h3>
-            <p className="leading-[20px] text-base font-normal text-[#888888]" >Your wallet balance sets what rides are available to you.</p>
-            </div>
+                {/* First Card */}
+                <div className="bg-[#F5F5F5] flex flex-col w-full lg:w-1/3 pt-6 px-6 rounded-t-2xl gap-6">
+                    <div className="flex flex-col gap-4">
+                        <h3 className="font-medium text-2xl">Top Up Your Wallet</h3>
+                        <p className="text-base font-normal text-[#888888]">
+                            Your wallet balance sets what rides are available to you.
+                        </p>
+                    </div>
+                    <div className="mt-auto">
+                        <img src="images/cardI.svg" alt="Top up wallet" className="w-full h-auto"/>
+                    </div>
+                </div>
 
-            <div className="">
-                <img src="images/cardI.svg" alt="apple store" className=""/>
-            </div>
-        </div>
+                {/* Second Card */}
+                <div className="bg-[#F5F5F5] flex flex-col w-full lg:w-1/3 pt-6 px-6 rounded-t-2xl gap-6">
+                    <div className="flex flex-col gap-4">
+                        <h3 className="font-medium text-2xl">See Rides That Fit</h3>
+                        <p className="text-base font-normal text-[#888888]">
+                            We suggest rides based on your wallet balance and destination.
+                        </p>
+                    </div>
+                    <div className="mt-auto">
+                        <img src="images/cardII.svg" alt="See available rides" className="w-full h-auto"/>
+                    </div>
+                </div>
 
-         {/* second card */}
-        <div className="bg-[#F5F5F5] flex flex-col w-1/3 pt-6 px-6 rounded-t-2xl h-fit gap-24" >
-                    <div className="flex flex-col gap-4 ">
-            <h3 className="font-medium text-2xl leading-[20px]">See Rides That Fit</h3>
-            <p className="leading-[20px] text-base font-normal text-[#888888]">We suggest rides based on your wallet balance and destination.</p>
+                {/* Third Card */}
+                <div className="bg-[#F5F5F5] flex flex-col w-full lg:w-1/3 pt-6 px-6 rounded-t-2xl gap-6">
+                    <div className="flex flex-col gap-4">
+                        <h3 className="font-medium text-2xl">Book & Go</h3>
+                        <p className="text-base font-normal text-[#888888]">
+                            Confirm your ride and get moving with confidence.
+                        </p>
+                    </div>
+                    <div className="mt-auto">
+                        <img src="images/cardIII.svg" alt="Book your ride" className="w-full h-auto"/>
+                    </div>
+                </div>
+                
             </div>
-
-            <div>
-                <img src="images/cardII.svg" alt="apple store" className=""/>
-            </div>
-        </div>
-
-         {/* third card */}
-        <div className="bg-[#F5F5F5] flex flex-col w-1/3 pt-6 px-6 rounded-t-2xl h-fit gap-24" >
-                    <div className="flex flex-col gap-4 ">
-            <h3 className="font-medium text-2xl leading-[20px]">Book & Go</h3>
-            <p className="leading-[20px] text-base font-normal text-[#888888]">Confirm your ride and get moving with confidence.</p>
-            </div>
-
-            <div>
-                <img src="images/cardIII.svg" alt="apple store" className=""/>
-            </div>
-        </div>
-        
-        </div>
         
         </section>
     )
