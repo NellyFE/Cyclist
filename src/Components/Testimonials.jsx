@@ -39,7 +39,7 @@ export const Testimonials = () => {
   ];
 
   const TestimonialCard = ({ testimonial }) => (
-    <div className="bg-white border border-gray-200 rounded-3xl p-6 shadow-sm min-w-[350px] md:min-w-[400px] flex-shrink-0">
+    <div className="bg-white border border-gray-200 rounded-3xl p-6 shadow-sm min-w-87.5 md:min-w-100 shrink-0">
       {/* Header: Avatar, Name/Location, and Stars */}
       <div className="flex items-start justify-between mb-4 pb-2 border-b-2 border-b-[#E9EFF5]">
         {/* Left: Avatar and Name/Location */}
@@ -101,10 +101,8 @@ export const Testimonials = () => {
         </div>
       </div>
 
-    
       <div className="relative">
         <div className="flex gap-6 animate-scroll-left">
-    
           {[...Array(3)].map((_, index) => (
             <React.Fragment key={index}>
               {bottomRowTestimonials.map((testimonial, i) => (

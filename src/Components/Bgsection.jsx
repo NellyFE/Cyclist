@@ -1,7 +1,7 @@
 export const Bgsection = () => {
     return(
         <section className="py-8">
-            <div className="flex h-[500px]">
+            <div className="flex h-125">
                 {/* Left - Woman Image */}
                 <div className="w-1/2">
                     <img 
@@ -35,7 +35,7 @@ export const Bgsection = () => {
                                 <h2 className="text-white text-[170px] -mt-4 font-bold leading-48 tracking-tight -rotate-6 ">
                                     Choice.
                                 </h2>
-                                <p className="absolute bottom-[45px] rotate-1 leading-6 left-26 py-2 pr- text-white text-3xl italic font-light bg-[#218D42]">
+                                <p className="absolute bottom-11.25 rotate-1 leading-6 left-26 py-2 pr- text-white text-3xl italic font-light bg-[#218D42]">
                                     at any place of your
                                 </p>
                             </div>
