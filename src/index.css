@@ -72,3 +72,9 @@ body{
 .animate-scroll-left:hover {
     animation-play-state: paused;
 }
+
+.install{
+    background-image: url(../public/images/bgimage.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

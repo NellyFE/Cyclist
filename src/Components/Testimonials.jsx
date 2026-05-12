@@ -44,9 +44,9 @@ export const Testimonials = () => {
       <div className="flex items-start justify-between mb-4 pb-2 border-b-2 border-b-[#E9EFF5]">
         {/* Left: Avatar and Name/Location */}
         <div className="flex items-center gap-3">
-          <img
-            src={testimonial.image}
-            alt={testimonial.name}
+          <img 
+            src={testimonial.image}   
+            alt={testimonial.name} 
             className="w-12 h-12 rounded-full object-cover"
           />
           <div>
