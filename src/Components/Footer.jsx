@@ -30,13 +30,13 @@ export const Footer = () => {
                     </div>
 
                     {/* Product Links */}
-                    <div className="border border-blue-600">
+                    <div className="">
                         <h3 className="font-semibold text-lg mb-4">Product</h3>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#features" className="text-gray-400 hover:text-white transition-colors text-sm">
                                     Features
-                                </a>
+                                </a> 
                             </li>
                             <li>
                                 <a href="#security" className="text-gray-400 hover:text-white transition-colors text-sm">
