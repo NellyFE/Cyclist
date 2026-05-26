@@ -30,12 +30,12 @@ export const Install = () => {
           <img
             src="images/appstore.svg"
             alt="app store"
-            className="h-10 sm:h-12 w-auto"
+            className="h-10 sm:h-12 w-auto border border-transparent hover:border-[#218D42] cursor-pointer rounded-3xl"
           />
           <img
             src="images/googlestore.png"
             alt="google store"
-            className="h-10 sm:h-12 w-auto"
+            className="h-10 sm:h-12 w-auto border border-transparent hover:border-[#218D42] cursor-pointer rounded-3xl"
           />
         </div>
 

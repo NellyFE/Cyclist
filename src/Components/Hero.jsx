@@ -30,8 +30,8 @@ export const Hero = () => {
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mt-4 sm:mt-6">
-                    <img src="images/applestore.svg" alt="apple store" className="h-10 sm:h-auto" />
-                    <img src="images/Mobilestore.svg" alt="google store" className="h-10 sm:h-auto" />
+                    <img src="images/applestore.svg" alt="apple store" className="h-10 sm:h-auto border border-transparent hover:border-[#218D42] cursor-pointer rounded-3xl" />
+                    <img src="images/Mobilestore.svg" alt="google store" className="h-10 sm:h-auto border border-transparent hover:border-[#218D42] cursor-pointer rounded-3xl" />
                 </div>
             </div>
 

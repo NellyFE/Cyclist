@@ -1,4 +1,6 @@
 export const Bgsection = () => {
+
+    
     return (
         <section className="py-8 px-4 sm:px-0">
             <div className="flex flex-col sm:flex-row
