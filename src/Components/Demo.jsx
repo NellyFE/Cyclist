@@ -1,6 +1,6 @@
 export const Demo = () => {
     return (
-        <section className="flex flex-col items-center justify-between gap-8 px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+        <section id="demo" className="flex flex-col items-center justify-between gap-8 px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
 
             {/* Header text */}
             <div className="flex flex-col items-center justify-center text-center w-full max-w-[708px] gap-4 sm:gap-6">

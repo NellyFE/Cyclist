@@ -35,7 +35,7 @@ export const FAQ = () => {
     };
 
     return (
-        <section className="py-16 px-4 bg-white">
+        <section id='faq' className="py-16 px-4 bg-white">
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">

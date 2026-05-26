@@ -78,7 +78,7 @@ export const Hero = () => {
                             src="images/left-floatingtextbox.svg"
                             alt=""
                             className="absolute animate-float top-[50%] -left-[3%]
-                                hidden xs:block
+                                xs:block
                                 w-28 sm:w-auto"
                         />
 
@@ -87,7 +87,7 @@ export const Hero = () => {
                             src="images/left-floatingicon.svg"
                             alt=""
                             className="absolute top-[3%] left-[8%]
-                                w-8 sm:w-auto"
+                              hidden md:block w-8 sm:w-auto"
                         />
 
                         {/* Right floating textbox */}
@@ -95,7 +95,7 @@ export const Hero = () => {
                             src="images/right-floatingtextbox.svg"
                             alt=""
                             className="absolute animate-float-delayed top-[70%] right-[1%]
-                                hidden xs:block
+                                 xs:block
                                 w-28 sm:w-auto"
                         />
 
@@ -104,7 +104,7 @@ export const Hero = () => {
                             src="images/right-floatingicon.svg"
                             alt=""
                             className="absolute top-[25%] right-[6.5%]
-                                w-8 sm:w-auto"
+                              hidden md:block  w-8 sm:w-auto"
                         />
                     </div>
 

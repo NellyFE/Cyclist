@@ -68,7 +68,7 @@ export const Testimonials = () => {
   );
 
   return (
-    <section className="py-10 sm:py-16 bg-white overflow-hidden">
+    <section id="testimonials" className="py-10 sm:py-16 bg-white overflow-hidden">
       {/* Header */}
       <div className="text-center mb-8 sm:mb-12 px-4">
         <p className="text-[#218D42] text-xs sm:text-sm font-semibold mb-2 tracking-wider uppercase">
