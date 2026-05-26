@@ -88,7 +88,7 @@ export const Nav = () => {
             }`}>
                 <div className="flex flex-col items-center justify-center h-full space-y-6 px-4">
                     <a 
-                        href="#how-it-works" 
+                        href="#demo" 
                         onClick={toggleMenu}
                         className="text-lg font-medium hover:text-[#218D42] transition-colors"
                     >
